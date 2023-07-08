@@ -1,0 +1,818 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 65273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Mstre/Documents/GitHub/Bad_Trench_Stories_WW1/BadTrenchStoriesWW1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53260
+Successfully changed project path to: C:/Users/Mstre/Documents/GitHub/Bad_Trench_Stories_WW1/BadTrenchStoriesWW1
+C:/Users/Mstre/Documents/GitHub/Bad_Trench_Stories_WW1/BadTrenchStoriesWW1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12336] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 4172381778 [EditorId] 4172381778 [Version] 1048832 [Id] WindowsEditor(7,Sharp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12336] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 4172381778 [EditorId] 4172381778 [Version] 1048832 [Id] WindowsEditor(7,Sharp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 44.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mstre/Documents/GitHub/Bad_Trench_Stories_WW1/BadTrenchStoriesWW1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004521 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 188 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (65ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (246ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (621ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (341.8 KB). Loaded Objects now: 3513.
+Memory consumption went from 113.4 MB to 113.1 MB.
+Total: 2.623100 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.295700 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 317037.008703 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Prefabs
+  artifactKey: Guid(a5e29a20fb07a9345be4fc7c505fdcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Prefabs using Guid(a5e29a20fb07a9345be4fc7c505fdcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd20d0e9d7dd44f4656cbdf81a28fe36') in 0.029155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.518532 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters
+  artifactKey: Guid(1af4d80e9bce4bf41941acdd1019a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters using Guid(1af4d80e9bce4bf41941acdd1019a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f502a1ecebb1f98b8e1799c17e0d6acf') in 0.011978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029378 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters/British Soldier.prefab
+  artifactKey: Guid(a7b67e16d01ceb04cb05d588972dd671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters/British Soldier.prefab using Guid(a7b67e16d01ceb04cb05d588972dd671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20269cf70d779d4c6b18bd94026afd25') in 0.267474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters/WW1 Pilot.prefab
+  artifactKey: Guid(d482fc17e963e00418e6e34a69fff598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Prefabs/Characters/WW1 Pilot.prefab using Guid(d482fc17e963e00418e6e34a69fff598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3869afb554efab6519cdd049f44a60c') in 0.023449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.664997 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Shoes 2.mat
+  artifactKey: Guid(d44c6880027d9be4d830f903bb2d14c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Shoes 2.mat using Guid(d44c6880027d9be4d830f903bb2d14c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aed0af326b482024a8d8820c8a0233') in 0.039156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 3.mat
+  artifactKey: Guid(46e37dee5e9e78444a07a62e7f62f388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 3.mat using Guid(46e37dee5e9e78444a07a62e7f62f388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508cb8e35fcc402297264be150bad7c') in 0.014661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Hair.mat
+  artifactKey: Guid(19654c34085f75846bf7d05c886b966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Hair.mat using Guid(19654c34085f75846bf7d05c886b966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9f11c86132ad97fab71fd7aa0a2132') in 0.015518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Shoes 1.mat
+  artifactKey: Guid(87dd4ee210f6e5e4e97018a7b9fce912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Shoes 1.mat using Guid(87dd4ee210f6e5e4e97018a7b9fce912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c9ab833af6b63c4a64cfbc237f1560') in 0.017617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/British Soldier.fbx
+  artifactKey: Guid(4559dd93bdb110b4c9479b226d0d9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/British Soldier.fbx using Guid(4559dd93bdb110b4c9479b226d0d9730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f161e3897c4483335d259fc73ed51bd') in 0.085881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001609 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Helmet 2.mat
+  artifactKey: Guid(68723549146e5c3498933aee2a87616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Helmet 2.mat using Guid(68723549146e5c3498933aee2a87616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16858cdb86af023dfb7ae2af8cb9be55') in 0.018787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 4.mat
+  artifactKey: Guid(c0628a9f88d76324aaa3226a34db730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 4.mat using Guid(c0628a9f88d76324aaa3226a34db730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d0cbab2185a019e569f53998b3b42') in 0.008753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 2.mat
+  artifactKey: Guid(3f1f2c9bbf01b1d46a7311e0c5bd968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 2.mat using Guid(3f1f2c9bbf01b1d46a7311e0c5bd968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288301e71c8c3617a575b53857b14021') in 0.012914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Eyes.mat
+  artifactKey: Guid(df654ccaefaeca5448b0b3183257da98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Eyes.mat using Guid(df654ccaefaeca5448b0b3183257da98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a32eddd0bdef5fdbce7bd5c3110bf9') in 0.011531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001263 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Skin.mat
+  artifactKey: Guid(c30b94a07296e424d81db023b88c3945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Skin.mat using Guid(c30b94a07296e424d81db023b88c3945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590c393ec4cab6795f353d2b2e8cd684') in 0.019113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001442 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Helmet 1.mat
+  artifactKey: Guid(0389a084c9771d84c801f196f3acc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Helmet 1.mat using Guid(0389a084c9771d84c801f196f3acc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfec912e0c3d8038c53fc4b4a6a836f2') in 0.014364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Mouth.mat
+  artifactKey: Guid(a935bba4e88fe3f4fa9546df6ae08641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Mouth.mat using Guid(a935bba4e88fe3f4fa9546df6ae08641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cbc932b96961e07d175eeb497e1c49') in 0.014732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 1.mat
+  artifactKey: Guid(cc10572e50641844b87b934c793f2943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Outfit 1.mat using Guid(cc10572e50641844b87b934c793f2943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b19bf0df1dde62ae19a936bbd9889c3') in 0.013652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Eyebrows.mat
+  artifactKey: Guid(bb023d5b8816ab24ca47841935c3c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Materials/Characters/British Soldier/British Soldier Eyebrows.mat using Guid(bb023d5b8816ab24ca47841935c3c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f093cd48acfd861ecf26e3eaafcc8c') in 0.009961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7045.512947 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Prefabs/Environment/Pine Tree Terrain.prefab
+  artifactKey: Guid(a03495a02b2206d41969e5c3baa3bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Prefabs/Environment/Pine Tree Terrain.prefab using Guid(a03495a02b2206d41969e5c3baa3bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8515b0e2d8be464924b4d702d5fe5855') in 0.028578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.885901 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches
+  artifactKey: Guid(c650c59c45612f149a58c2361e8bc547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches using Guid(c650c59c45612f149a58c2361e8bc547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba165fe721f3895978adc0053af2910') in 0.012120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 384.161806 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/ExampleScenes
+  artifactKey: Guid(89dcf34185a6cf047a3af8b7b784dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/ExampleScenes using Guid(89dcf34185a6cf047a3af8b7b784dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63db543bea92fc29b002ac4eeb59147') in 0.009047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.258127 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/ExampleScenes/New Scene.unity
+  artifactKey: Guid(ff11464643b3cfc4cb1cffe519b21337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/ExampleScenes/New Scene.unity using Guid(ff11464643b3cfc4cb1cffe519b21337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c794d3f2f8ce5e3c6dcc65afd2058589') in 0.006381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.265943 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/ExampleScenes/BasicScene4Soldier.unity
+  artifactKey: Guid(ff11464643b3cfc4cb1cffe519b21337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/ExampleScenes/BasicScene4Soldier.unity using Guid(ff11464643b3cfc4cb1cffe519b21337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f0b140d9b9514ba7fc6bf44189fb63') in 0.012710 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003057 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (568ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3560.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 3.040900 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.753000 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 358.191164 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx
+  artifactKey: Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx using Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6c154ef72ebd4bef8862c42e5571aa') in 0.032210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.116157 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx
+  artifactKey: Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx using Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a4d5a1688b1ac298ab89a2efdb56a') in 0.006344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.550800 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx
+  artifactKey: Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Ninja Idle.fbx using Guid(6dd9ec01686e78d4988f8db8844707a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badd52a6819db2f22912df517351df77') in 0.004326 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3563.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.298700 ms (FindLiveObjects: 0.166400 ms CreateObjectMapping: 0.130300 ms MarkObjects: 1.932600 ms  DeleteObjects: 0.068500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 582.735290 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Dwarf Idle.fbx
+  artifactKey: Guid(77657958303a01f42bff863a2ae69605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Dwarf Idle.fbx using Guid(77657958303a01f42bff863a2ae69605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd816e7d92c60e1ceccbbbd8930e1fc53') in 0.035314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 400.572530 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/New Animator Controller.controller
+  artifactKey: Guid(9bb2f1f179d65e144999436f20d6125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/New Animator Controller.controller using Guid(9bb2f1f179d65e144999436f20d6125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c58a5a85f6c2db5e8b97fc2bc0d4484') in 0.011508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.643755 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/New Animation.anim
+  artifactKey: Guid(18f6dcc571ec8aa4cb82413ca6815b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/New Animation.anim using Guid(18f6dcc571ec8aa4cb82413ca6815b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f990279ef47cf7960a2fed2bb9a7691') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.883895 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx
+  artifactKey: Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx using Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565034ffe710407bebab3fcec2b7ba8c') in 0.016171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.247203 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/ffg.controller
+  artifactKey: Guid(6206cfc570524024aaaab0626b736ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/ffg.controller using Guid(6206cfc570524024aaaab0626b736ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a7118a7d580b15a24fa197c0c64de4') in 0.009091 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002474 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (641ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3566.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.286500 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.997200 ms  DeleteObjects: 0.067600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.462606 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx
+  artifactKey: Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx using Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c859c46010459fbb9872c9499bd6fb79') in 0.024182 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3569.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 2.327800 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.021300 ms  DeleteObjects: 0.073400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.110043 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx
+  artifactKey: Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx using Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c1ceff09d32749bc0a7b3aa974a2a2') in 0.024592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.037699 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx
+  artifactKey: Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/Animators/Idle.fbx using Guid(7a58030ba1bba3844ac437b4768fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1a41131d64b9493bc486154b72552a') in 0.004738 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mstre\Documents\GitHub\Bad_Trench_Stories_WW1\BadTrenchStoriesWW1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (673ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3572.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 2.546700 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.073300 ms MarkObjects: 2.236000 ms  DeleteObjects: 0.068400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.937005 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Ammo Crate.fbx
+  artifactKey: Guid(32c5e3f63fa061548bbce03084d47f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Ammo Crate.fbx using Guid(32c5e3f63fa061548bbce03084d47f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df60ad5c1d7f950a97bdcaccc11c75cd') in 0.103741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Trench Gun.fbx
+  artifactKey: Guid(d9814167b72a8e441b9d17f61128684b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Trench Gun.fbx using Guid(d9814167b72a8e441b9d17f61128684b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b11e77bf6c0c507aac5bec2a59354a') in 0.205900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Straight Half.fbx
+  artifactKey: Guid(e3b6cb5a562bdb14a8bdfc017dcb08ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Straight Half.fbx using Guid(e3b6cb5a562bdb14a8bdfc017dcb08ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187671dce5ba312ecddfd3c9c02fe7c8') in 0.053396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Entrance.fbx
+  artifactKey: Guid(6b76544d52481ad47b9deb16e5b44cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Entrance.fbx using Guid(6b76544d52481ad47b9deb16e5b44cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7757eff4411a02040891d3f50638ef90') in 0.031681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Straight Half.fbx
+  artifactKey: Guid(422d2893fc68feb499c19c0c9251fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Straight Half.fbx using Guid(422d2893fc68feb499c19c0c9251fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d40d148b55d0ee93a7ef29ca69e4f1') in 0.044443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Alt.fbx
+  artifactKey: Guid(31f6edf621d75d54bbcee96d1207dfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Alt.fbx using Guid(31f6edf621d75d54bbcee96d1207dfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce6e068cbdf35dd0bd6840527c2859e') in 0.030486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trenches T Section.fbx
+  artifactKey: Guid(7b0f387207cc0794e93c09be910e6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trenches T Section.fbx using Guid(7b0f387207cc0794e93c09be910e6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3313fc0296a2b58d6ba5170b2b1b6bc3') in 0.029890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Biplane 2 Seat.fbx
+  artifactKey: Guid(a16821e44bf605347ae48df8e7b1c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Biplane 2 Seat.fbx using Guid(a16821e44bf605347ae48df8e7b1c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0745638b5ec083c08b9dc592a99013') in 0.184186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Roof.fbx
+  artifactKey: Guid(032ea49e7bad95c4e976c8eb26176689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Roof.fbx using Guid(032ea49e7bad95c4e976c8eb26176689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f6664aa9b6b31ddb7b5799df1172f6') in 0.026571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Straight.fbx
+  artifactKey: Guid(f631c22178c629341b0b82a4d8e5b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench T-Section Straight.fbx using Guid(f631c22178c629341b0b82a4d8e5b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f40eeb6c52ffd364ba1d57c79352dfd') in 0.032333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Wall 2.fbx
+  artifactKey: Guid(8ab4b52ac02d57d43a422501a5b183b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Bunker Wall 2.fbx using Guid(8ab4b52ac02d57d43a422501a5b183b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc0bb6f1b40cc0cc263368be0bd34a1') in 0.026593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Wall 2.fbx
+  artifactKey: Guid(4e56da0625df515468d6c31c045b0b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Wall 2.fbx using Guid(4e56da0625df515468d6c31c045b0b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6e41e1268279ffd3215bc32d38e90b') in 0.031593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Boarded Wall.fbx
+  artifactKey: Guid(ec6049153d971b345a7867ba0a11e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Boarded Wall.fbx using Guid(ec6049153d971b345a7867ba0a11e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679bbff66bbd2d4165dd231051086a87') in 0.030583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Ladder.fbx
+  artifactKey: Guid(28f76a7a7c33a3f4883e90c19f16c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Ladder.fbx using Guid(28f76a7a7c33a3f4883e90c19f16c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c4f8423608218ac8d2c645534f39cc') in 0.031708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/British Tank.fbx
+  artifactKey: Guid(161b111f0a6c8d8419ea0ebab7a94c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/British Tank.fbx using Guid(161b111f0a6c8d8419ea0ebab7a94c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f467581701e434676c752d0eb5c3a9d') in 0.219913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/British Grenade.fbx
+  artifactKey: Guid(b947fcd163d95f84fb4b7bb1502cbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/British Grenade.fbx using Guid(b947fcd163d95f84fb4b7bb1502cbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f600b35bcc4413ee643cb2fc1cffb1c7') in 0.050722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Corner.fbx
+  artifactKey: Guid(e7e810bd0f540004d97e280d7a8292c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Corner.fbx using Guid(e7e810bd0f540004d97e280d7a8292c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd5eaeca0a77b3b3a873f01d411ba9d') in 0.028651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Straight.fbx
+  artifactKey: Guid(06b55ee95553b464b9e4b867539a8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Trench Straight.fbx using Guid(06b55ee95553b464b9e4b867539a8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3575473943c78b5165389b019deedecc') in 0.030730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bag Half.fbx
+  artifactKey: Guid(0726f38ee0586134e912db26489b799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bag Half.fbx using Guid(0726f38ee0586134e912db26489b799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3b5bacb77ce986dca40764f6ce6c48') in 0.023495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Sandbag.fbx
+  artifactKey: Guid(86bc7b9ade9ab5e4f9e7c313bf92fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Sandbag.fbx using Guid(86bc7b9ade9ab5e4f9e7c313bf92fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2b5e1b761e9eae2c296d787e937afe') in 0.026908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Opening.fbx
+  artifactKey: Guid(3e05022108c46d242b6aca6e493d7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Opening.fbx using Guid(3e05022108c46d242b6aca6e493d7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0473880ed22f3bf7e7cb783de8f8e17') in 0.029062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Wall 1.fbx
+  artifactKey: Guid(fe2786b471832634bab9f56df57a4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/Sand Bags Wall 1.fbx using Guid(fe2786b471832634bab9f56df57a4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b21aeede49ffe2f493f90310e0312b') in 0.025970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Pilot.fbx
+  artifactKey: Guid(8242c266b396bba4c9686e148937dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Pilot.fbx using Guid(8242c266b396bba4c9686e148937dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81ee1a937fc5b08777d23321d5716dd') in 0.139964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Rifle.fbx
+  artifactKey: Guid(6b7a296f34a517e46b87eb07378f7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 Low Poly WW1 Trenches/FBXs/WW1 Rifle.fbx using Guid(6b7a296f34a517e46b87eb07378f7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787c896a854eb53ce41fe55cc68a016c') in 0.076432 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
