@@ -7,7 +7,7 @@ public class CameraControllerScript : MonoBehaviour
 {
     public float speed;
     public float zoomSpeed;
-    public float rotationSpeed = 0.1f;
+    public float rotationSpeed = 0.2f;
 
     private float maxHeight = 150;
     private float minHeight = 20;
@@ -69,19 +69,20 @@ public class CameraControllerScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(2)) // clicked!
         {
-            Debug.Log("basýldý");
             p1 = Input.mousePosition;
         }
 
         if (Input.GetMouseButton(2)) // keep going
         {
-            Debug.Log("basýldý2");
 
             p2 = Input.mousePosition;
             float dx = (p2 - p1).x * rotationSpeed;
-            float dy = (p2 - p1).x * rotationSpeed;
+            float dy = (p2 - p1).y * rotationSpeed;
 
             transform.rotation *= Quaternion.Euler(new Vector3(0, dx, 0));
+            transform.GetChild(0).transform.rotation *= Quaternion.Euler(new Vector3(-dy, 0, 0));
+
+            p1 = p2;
         }
 
 
