@@ -17,18 +17,18 @@ public class selected_dictionary : MonoBehaviour
             Debug.Log("Added " + id + " to selected dict");
         }
     }
-
+     
     public void deselect(int id)
-    {
+    { 
         Destroy(selectedTable[id].GetComponent<selection_component>());
         selectedTable.Remove(id);
     }
 
     public void deselectAll()
     {
-        foreach(KeyValuePair<int,GameObject> pair in selectedTable)
+        foreach (KeyValuePair<int, GameObject> pair in selectedTable)
         {
-            if(pair.Value != null)
+            if (pair.Value != null)
             {
                 Destroy(selectedTable[pair.Key].GetComponent<selection_component>());
             }

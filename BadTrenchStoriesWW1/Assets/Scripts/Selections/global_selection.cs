@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class global_selection : MonoBehaviour
 {
-    
+
     selected_dictionary selected_table;
     RaycastHit hit;
 
@@ -29,7 +29,7 @@ public class global_selection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
         selected_table = GetComponent<selected_dictionary>();
         dragSelect = false;
     }
@@ -46,7 +46,7 @@ public class global_selection : MonoBehaviour
         //2. while left mouse button held
         if (Input.GetMouseButton(0))
         {
-            if((p1 - Input.mousePosition).magnitude > 40)
+            if ((p1 - Input.mousePosition).magnitude > 40)
             {
                 dragSelect = true;
             }
@@ -55,11 +55,11 @@ public class global_selection : MonoBehaviour
         //3. when mouse button comes up
         if (Input.GetMouseButtonUp(0))
         {
-            if(dragSelect == false) //single select
+            if (dragSelect == false) //single select
             {
                 Ray ray = Camera.main.ScreenPointToRay(p1);
 
-                if(Physics.Raycast(ray,out hit, 50000.0f))
+                if (Physics.Raycast(ray, out hit, 50000.0f))
                 {
                     if (Input.GetKey(KeyCode.LeftShift)) //inclusive select
                     {
@@ -105,7 +105,7 @@ public class global_selection : MonoBehaviour
                 }
 
                 //generate the mesh
-                selectionMesh = generateSelectionMesh(verts,vecs);
+                selectionMesh = generateSelectionMesh(verts, vecs);
 
                 selectionBox = gameObject.AddComponent<MeshCollider>();
                 selectionBox.sharedMesh = selectionMesh;
@@ -117,19 +117,19 @@ public class global_selection : MonoBehaviour
                     selected_table.deselectAll();
                 }
 
-               Destroy(selectionBox, 0.02f);
+                Destroy(selectionBox, 0.02f);
 
             }//end marquee select
 
             dragSelect = false;
 
         }
-       
+
     }
 
     private void OnGUI()
     {
-        if(dragSelect == true)
+        if (dragSelect == true)
         {
             var rect = Utils.GetScreenRect(p1, Input.mousePosition);
             Utils.DrawScreenRect(rect, new Color(0.8f, 0.8f, 0.95f, 0.25f));
@@ -138,7 +138,7 @@ public class global_selection : MonoBehaviour
     }
 
     //create a bounding box (4 corners in order) from the start and end mouse position
-    Vector2[] getBoundingBox(Vector2 p1,Vector2 p2)
+    Vector2[] getBoundingBox(Vector2 p1, Vector2 p2)
     {
         // Min and Max to get 2 corners of rectangle regardless of drag direction.
         var bottomLeft = Vector3.Min(p1, p2);
@@ -162,12 +162,12 @@ public class global_selection : MonoBehaviour
         Vector3[] verts = new Vector3[8];
         int[] tris = { 0, 1, 2, 2, 1, 3, 4, 6, 0, 0, 6, 2, 6, 7, 2, 2, 7, 3, 7, 5, 3, 3, 5, 1, 5, 0, 1, 1, 4, 0, 4, 5, 6, 6, 5, 7 }; //map the tris of our cube
 
-        for(int i = 0; i < 4; i++)
+        for (int i = 0; i < 4; i++)
         {
             verts[i] = corners[i];
         }
 
-        for(int j = 4; j < 8; j++)
+        for (int j = 4; j < 8; j++)
         {
             verts[j] = corners[j - 4] + vecs[j - 4];
         }
