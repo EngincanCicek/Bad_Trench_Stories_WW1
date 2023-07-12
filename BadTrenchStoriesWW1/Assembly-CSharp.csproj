@@ -58,7 +58,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Selections\selected_dictionary.cs" />
+    <Compile Include="Assets\Scripts\Selections\selection_component.cs" />
+    <Compile Include="Assets\Scripts\Selections\global_selection.cs" />
+    <Compile Include="Assets\Scripts\Controllers\CameraControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Selections\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
