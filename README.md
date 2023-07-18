@@ -1,1 +1,3 @@
 # Bad_Trench_Stories_WW1
+
+Bad_Trench_Stories_WW1 is a repository dedicated to housing prototypes for a closed-source, RTS-style game centered around World War I, which I am currently working on. Here, you will find various prototypes testing and refining different aspects and mechanics of the game. Each prototype carries potential features to be included in the final version of the game. I am open to all kinds of feedback and suggestions, eagerly looking forward to adding new and exciting features to the game. If you are interested in seeing the game progress and aiding in its development, feel free to follow this repo and share your thoughts.
